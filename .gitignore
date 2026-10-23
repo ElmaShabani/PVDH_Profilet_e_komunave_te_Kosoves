@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+data/processed/*
+!data/processed/.gitkeep
+results/*
+!results/.gitkeep
