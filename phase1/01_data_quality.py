@@ -24,7 +24,7 @@ def main():
     )
     sections = [
         ("DIMENSIONS (RAW WORKSHEET)", f"Rows: {df.shape[0]}\nColumns: {df.shape[1]}"),
-        ("FIRST 20 ROWS", df.head(20).to_string(index=False, header=False)),
+        ("FIRST 10 ROWS", df.head(10).to_string(index=False, header=False)),
         ("RAW COLUMN TYPES", df.dtypes.to_string()),
         ("EMPTY CELLS BY COLUMN", df.isna().sum().to_string()),
         ("UNAVAILABLE VALUES (:) BY COLUMN", df.eq(":").sum().to_string()),
@@ -39,7 +39,9 @@ def main():
     report_path = ROOT / "results/data_quality.txt"
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text(report, encoding="utf-8")
-    print(report)
+    print(f"Rows: {df.shape[0]} | Columns: {df.shape[1]}")
+    print("\n=== FIRST 10 ROWS (RAW WORKSHEET) ===")
+    print(df.head(10).to_string(index=False, header=False))
     print(f"Report saved to {report_path}")
 
 
