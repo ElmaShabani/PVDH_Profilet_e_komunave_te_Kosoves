@@ -1,0 +1,22 @@
+{
+  "file": "askdata.xlsx",
+  "sha256": "025b311f91cd43659b5ed9188d4f41811e0faf468d98967c8c5a94db72e6aa6f",
+  "publisher": "Agjencia e Statistikave të Kosovës (ASK)",
+  "table_id": "census2024_13",
+  "worksheet": "census2024_13",
+  "title": "Popullsia sipas llojit të vendbanimit (urban/rural), gjinisë dhe grupmoshës, në nivel vendi dhe komune, për vitet 2011 dhe 2024",
+  "url": "https://askdata.rks-gov.net/pxweb/sq/ASKdata/ASKdata__Census%20population__1_Demographic_Characteristics/census2024_13.px/",
+  "source_last_updated": "2025-01-30",
+  "source_verified_on": "2026-10-31",
+  "download_date": null,
+  "download_date_note": "The original download date was not recorded.",
+  "unit": "Population count",
+  "census_years": [2011, 2024],
+  "export_geographic_level": "Municipality",
+  "limitations": [
+    "The source notes refer to 34 municipalities in 2011 and 38 in 2024.",
+    "Northern municipalities were not enumerated in 2011; their exported zero counts are treated as missing.",
+    "Participation in northern municipalities was incomplete in 2024.",
+    "Model preparation excludes records with specific coverage warnings; other outputs retain those warnings."
+  ]
+}
