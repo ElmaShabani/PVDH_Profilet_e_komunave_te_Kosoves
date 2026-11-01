@@ -62,7 +62,12 @@ Viti i parazgjedhur është 2024. Skripti ekzekuton hapat në rend, ndalon nëse
 
 ### Trajtimi i kërkesës për mostrimin
 
-**Nuk është marrë mostër statistikore.** Përdoren të gjitha rekordet e vlefshme nga tabela e disponueshme, sepse dataset-i është i kufizuar dhe synohet ruajtja e mbulimit të të gjitha komunave, viteve, gjinive, vendbanimeve dhe grupmoshave. Dhjetë rreshtat që shfaqen në terminal janë vetëm parapamje, jo mostër analitike. Nëse kërkohet shprehimisht nga lënda të demonstrohet një teknikë mostrimi, kjo duhet sqaruar me ligjëruesin; marrja e mostrës nuk duhet të zëvendësojë pa arsye të dhënat e plota të regjistrimit.
+Skripti `phase1/08_sampling.py` përdoret vetëm për demonstrim dhe verifikim të shpejtë të funksionimit të workflow-it, duke krijuar një mostër të vogël të komunave për paraqitje dhe kontroll të ekzekutimit.
+
+Kjo mostër nuk përdoret për analizat demografike, përgatitjen e veçorive, ose për modelimin. Për këto procese përdoren të gjitha regjistrimet e vlefshme të dataset-it, me përjashtim të rasteve kur zbatohen rregullat e dokumentuara të cilësisë dhe mbulimit të të dhënave.
+
+Nuk është kryer mostër statistikore për analizën finale. Dataset-i i disponueshëm përdoret në tërësi për të ruajtur mbulimin e komunave, viteve, gjinive, vendbanimeve dhe kategorive demografike. Rreshtat e shfaqur në terminal janë vetëm parapamje të të dhënave dhe nuk përfaqësojnë mostër analitike.
+
 
 ## Rregullat dhe kufizimet e të dhënave
 
